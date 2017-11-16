@@ -9,3 +9,9 @@ function IcebreakerResponse(email){
     //i++
   //})
 //}
+
+IcebreakerResponse.BatchCreate = function(emails){
+  return emails.map(function(email){
+    return new IcebreakerResponse(email)
+  })
+}
