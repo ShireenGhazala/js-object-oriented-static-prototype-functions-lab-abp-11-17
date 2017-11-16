@@ -6,5 +6,6 @@ function IcebreakerResponse(email){
   //let i=0;
   //return emails.map(function(mail){
     //return new IceBreakerResponse(mail[i])
+    i++
   //})
 //}
